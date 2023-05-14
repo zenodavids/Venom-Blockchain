@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tip3
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\MongoDB\Server\6.0\bin\;C:\Program Files\MongoDB\Server\6.0\bin\mongosh-1.8.0-win32-x64\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\hp\.cargo\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Local\GitHubDesktop\bin;C:\Users\hp\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\hp\go\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tip3: Not found
+      at params.callback [as _callback] (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "locklift-project",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "test": "npx locklift test --network local"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/chai": "^4.3.5",
+      "@types/mocha": "^10.0.1",
+      "@types/node": "^20.1.0",
+      "chai": "^4.3.7",
+      "everscale-standalone-client": "^2.1.18",
+      "locklift": "^2.5.3",
+      "prettier": "^2.8.8",
+      "tip3": "git://github.com/broxus/tip3#v5",
+      "ts-mocha": "^10.0.0",
+      "typescript": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
